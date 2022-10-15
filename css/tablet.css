@@ -1,0 +1,37 @@
+@media (max-width: 992px) {
+  /*Nav-bar*/
+  .nav-2 {
+    margin-right: 0;
+    border-right: 1px solid #ced4da;
+  }
+
+  /* CERTIFICATE   */
+  .certificate-content-1,
+  .certificate-content-2,
+  .certificate-content-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .certificate-content img {
+    width: 100%;
+  }
+
+  /* PROJECT */
+
+  .project-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  /*FOOTER*/
+  .link-footer {
+    gap: 1rem;
+  }
+}

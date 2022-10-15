@@ -1,0 +1,38 @@
+@media (max-width: 576px) {
+  /*Nav-bar*/
+  #nav-bar {
+    margin: 1rem 0;
+  }
+
+  .bar {
+    text-align: start;
+    margin-left: 10vw;
+    padding: 0.5rem auto;
+  }
+
+  .nav-left,
+  .nav-right {
+    border: none;
+  }
+
+  /* CERTIFICATE */
+  .certificate-content-2 {
+    border-left: none;
+  }
+
+  /* PROJECT */
+  .project-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  table {
+    font-size: 16px;
+  }
+
+  /*FOOTER*/
+  .link p {
+    display: none;
+  }
+}
